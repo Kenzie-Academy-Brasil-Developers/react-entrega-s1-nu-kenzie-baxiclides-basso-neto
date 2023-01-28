@@ -1,0 +1,33 @@
+.itemList{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 1rem;
+    background-color: #F8F9FA ;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.itemList img{
+    width: 10px;
+    height: 10px;
+}
+
+.list__value{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #f8f8f8;
+    margin-top: 1rem;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.totalMoney{
+    margin-left: 70px;
+    color: #FD377E;
+}
+
+.noItens{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
