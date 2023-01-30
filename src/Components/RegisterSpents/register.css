@@ -5,14 +5,21 @@
 }
 
 .container__form input{
+    font-size: 1.5rem;
+    margin-top: 1rem;
     text-align: center;
-    height: 3rem;
+    height: 4rem;
     background-color: #F8F9FA;
     border-radius: 8px;
     border: none;
 }
 
+.value{
+    margin-top: 2rem;
+}
+
 .container__form input::placeholder{
+    font-size: 1rem;
     color: gray;
     padding: 1rem;
 }
@@ -23,16 +30,24 @@
 }
 
 .boxCifrao{
+   
     border-radius: 8px;
     background-color: #F8F9FA;
     padding: 12px 15px;
     align-self: center;
+    height: 65px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
 }
 
 .container__valueAndType{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    height: 65px;
+    align-items: flex-end;
 }
 
 .container__form select{
@@ -40,12 +55,20 @@
     border: none;
     background-color: #F8F9FA;
     padding: 0px 10px;
+    height: 65px;
 }
 
 .container__form button{
+    margin-top: 2rem;
+    height: 3rem;
     background-color: #FD377E;
     border: none;
     border-radius: 8px;
     color: #fff;
     padding: 10px 30px;
 }
+
+#valor{
+    width: 100px;
+}
+

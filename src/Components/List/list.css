@@ -13,9 +13,8 @@
     height: 10px;
 }
 
+
 .list__value{
-    display: flex;
-    flex-direction: column;
     border: 3px solid #f8f8f8;
     margin-top: 1rem;
     border-radius: 8px;
@@ -30,4 +29,24 @@
 .noItens{
     margin-top: 2rem;
     margin-bottom: 1rem;
+    font-size: 1.5rem;
 }
+
+@media(min-width: 769px){
+    .totalMoney{
+        margin-left: 10px
+    }
+
+    .noItens{
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        font-size: 3rem;
+    }
+
+    .itemList img{
+        width: 25px;
+        height: 25px;
+      }
+    
+}
+

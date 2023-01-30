@@ -1,0 +1,178 @@
+.body {
+  height: 100vh;
+  width: 100vw;
+  background-color: #212529;
+}
+
+.App {
+  max-width: none;
+  padding: 0;
+}
+
+.header {
+  padding: 10px 20px;
+}
+
+.header span {
+  color: #fd377e;
+}
+
+.header h1 {
+  margin-top: 3rem;
+  color: white;
+}
+
+.header h2 {
+  margin-top: 2rem;
+  color: whitesmoke;
+}
+
+header h3 {
+  margin-top: 2rem;
+  color: white;
+  font-weight: 300px;
+}
+
+header button {
+  margin-top: 2rem;
+  background-color: #fd377e;
+  width: 20rem;
+  padding: 13px 20px;
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 12px;
+}
+
+header button:hover {
+  background-color: white;
+  color: #fd377e;
+}
+
+.containerBox {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 25px 0px;
+  margin: 5rem auto;
+  gap: 15px;
+  width: 150px;
+  height: 208px;
+  background-color: #fff;
+  border-radius: 0.4rem;
+}
+
+.boxInside {
+  border-radius: 4px;
+  margin: 0px auto;
+  width: 85%;
+  height: 1.2rem;
+  background-color: #f3f3f3;
+}
+
+.boxOutside1 {
+  position: absolute;
+  top: 77px;
+  left: -40px;
+  border-radius: 4px;
+  margin: 0px auto;
+  width: 85%;
+  height: 3rem;
+  background-color: #fff;
+  z-index: 2;
+}
+.boxOutside2 {
+  position: absolute;
+  top: 100px;
+  right: -15px;
+  border-radius: 4px;
+  margin: 0px auto;
+  width: 85%;
+  height: 3rem;
+  background-color: #fff;
+}
+
+.image1 {
+  width: 25px;
+  height: 25px;
+  background-color: #fd377e;
+  margin-top: 12px;
+  margin-left: 10px;
+  border-radius: 4px;
+}
+
+.image2 {
+  width: 25px;
+  height: 25px;
+  background-color: #66c085;
+  margin-top: 15px;
+  margin-left: 10px;
+  border-radius: 4px;
+}
+
+@media (min-width: 769px) {
+  .body {
+    display: flex;
+  }
+
+  .containerBox {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0px;
+    margin: 5rem auto;
+    gap: 15px;
+    width: 340px;
+    height: 416px;
+    background-color: #fff;
+    border-radius: 0.4rem;
+  }
+
+  .boxInside {
+    border-radius: 4px;
+    margin: 0px auto;
+    width: 85%;
+    height: 3.5rem;
+    background-color: #f3f3f3;
+  }
+
+  .boxOutside1 {
+    position: absolute;
+    top: 117px;
+    left: -40px;
+    border-radius: 4px;
+    margin: 0px auto;
+    width: 85%;
+    height: 5rem;
+    background-color: #fff;
+    z-index: 2;
+  }
+
+  .boxOutside2 {
+    position: absolute;
+    top: 170px;
+    right: -15px;
+    border-radius: 4px;
+    margin: 0px auto;
+    width: 85%;
+    height: 5rem;
+    background-color: #fff;
+  }
+
+  .image1 {
+    width: 50px;
+    height: 50px;
+    background-color: #fd377e;
+    margin-top: 14px;
+    margin-left: 10px;
+    border-radius: 4px;
+  }
+  
+  .image2 {
+    width: 50px;
+    height: 50px;
+    background-color: #66c085;
+    margin-top: 15px;
+    margin-left: 10px;
+    border-radius: 4px;
+  }
+}
