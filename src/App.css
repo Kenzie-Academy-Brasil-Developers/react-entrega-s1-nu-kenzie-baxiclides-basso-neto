@@ -9,13 +9,14 @@ body {
 }
 
 .App {
-  padding: 0 20px;
+  padding: 0 0px;
   width: 100vw;
-  max-width: 1200px;
   height: 100vh;
 }
 
 .header__app {
+  margin: 0 auto;
+  max-width: 1200px;
   display: flex;
   flex-direction: row;
   gap: 5rem;
@@ -34,6 +35,11 @@ body {
   align-self: center;
 }
 
+.header__app button:hover{
+  background-color: #fd377e;
+  color: white;
+}
+
 .header__app h1 {
   font-family: "Nunito", sans-serif;
   font-size: 2rem;
@@ -44,8 +50,13 @@ body {
 }
 
 .main__container {
+  padding: 10px;
   margin-top: 1rem;
   margin-bottom: 2rem;
+}
+
+footer{
+  padding: 10px;
 }
 
 @media (min-width: 769px) {
@@ -53,10 +64,11 @@ body {
     font-size: 2rem;
   }
   .app__container {
-    margin-top: 3rem;
     display: flex;
     flex-direction: row;
     gap: 20%;
+    max-width: 1200px;
+    margin: 3rem auto;
   }
 
   .header__app {
@@ -77,13 +89,15 @@ body {
   }
 
   main {
+    margin: 0 auto;
     width: 40%;
-    max-width: 40%;
+    max-width: 600px;
   }
 
   footer {
+    margin: 0 auto;
     width: 40%;
-    max-width: 40%;
+    max-width: 600px;
   }
 
   footer h2 {

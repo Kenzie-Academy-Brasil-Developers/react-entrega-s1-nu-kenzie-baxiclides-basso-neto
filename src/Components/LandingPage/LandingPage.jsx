@@ -1,40 +1,41 @@
-import '/src/reset.css'
-import './landingpage.css'
+import "/src/reset.css";
 import { useState } from "react";
+import styles from "./landingpage.module.css";
+function LandingPage({setPages}) {
 
-function LandingPage() {
-
-    const [pages, setPages] = useState('')
-    console.log(pages)
-    return (
-        <div className='body'>
-            
-        <header className='header'>
-            <h1><span>Nu  </span>Kenzie</h1>
+  
+  return (
+    <div className={styles.body}>
+      <div className={styles.container}>
+          <header className={styles.header}>
+            <h1>
+              <span>Nu </span>Kenzie
+            </h1>
             <h2>Centralize o controle das suas finanças</h2>
             <h3>de forma rápida e segura</h3>
-            <button type='button' onClick={()=>setPages('Dashboard')}>Inicio</button>
-          </header><div className='app__container'></div>
+            <button type="button" onClick={() => setPages("Dashboard")}>
+              Iniciar
+            </button>
+          </header>
           <main>
-            <div className='containerBox'>
-                <div className='boxInside'></div>
-                <div className='boxInside'></div>
-                <div className='boxInside'></div>
-                <div className='boxInside'></div>
-                <div className='boxInside'></div>
-                <div className='boxOutside1'>
-                    <div className='image1'></div>
-                </div>
-                <div className='boxOutside2'>
-                    <div className='image2'></div>
-                </div>
+            <div className={styles.app__container}></div>
+            <div className={styles.containerBox}>
+              <div className={styles.boxInside}></div>
+              <div className={styles.boxInside}></div>
+              <div className={styles.boxInside}></div>
+              <div className={styles.boxInside}></div>
+              <div className={styles.boxInside}></div>
+              <div className={styles.boxOutside1}>
+                <div className={styles.image1}></div>
+              </div>
+              <div className={styles.boxOutside2}>
+                <div className={styles.image2}></div>
+              </div>
             </div>
           </main>
-
-        </div>
-
-        
-    )
+      </div>
+    </div>
+  );
 }
 
-export default LandingPage
+export default LandingPage;

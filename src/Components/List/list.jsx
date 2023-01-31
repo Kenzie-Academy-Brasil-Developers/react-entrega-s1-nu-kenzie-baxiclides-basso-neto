@@ -1,7 +1,9 @@
 import "./list.css";
 import TotalMoney from "../TotalMoney/totalmoney";
+import { StyledItemList } from "./style";
 
-function List({ listTransactions }) {
+function List({ listTransactions, removeItem }) {
+  
   return (
     <div className="list__container">
       <ul>
@@ -9,15 +11,15 @@ function List({ listTransactions }) {
           <>
             <TotalMoney listTransactions={listTransactions} />
             {listTransactions.map((listItem, id) => (
-              <li className="itemList" key={listItem.id}>
+              <StyledItemList borderColor={listItem.type === 'Entrada' ? 'green' : 'gray'} key={listItem.id}>
                 <h3>{listItem.description}</h3>
                 <span>{listItem.type}</span>
                 <h4>R${listItem.value},00</h4>
-                <img
+                <img id={listItem.id} onClick={removeItem}
                   src="src/assets/trashicon.png"
                   alt="delete icon"
                 />
-              </li>
+              </StyledItemList>
             ))}
           </>
         ) : (
