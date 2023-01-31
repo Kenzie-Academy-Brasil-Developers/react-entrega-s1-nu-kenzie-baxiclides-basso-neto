@@ -9,7 +9,7 @@ import LandingPage from './Components/LandingPage/LandingPage'
 function App() {
   
 const [listTransactions, setListTransactions] = useState([])
-const [page, setPages] = useState('Dashboard')
+const [page, setPages] = useState('LandingPage')
 
 function removeItem(event) {
   console.log(event.target.id)
