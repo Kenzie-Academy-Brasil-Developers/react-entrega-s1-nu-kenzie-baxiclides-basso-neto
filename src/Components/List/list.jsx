@@ -1,6 +1,7 @@
 import "./list.css";
 import TotalMoney from "../TotalMoney/totalmoney";
 import { StyledItemList } from "./style";
+import trash from '../../assets/trashicon.png'
 
 function List({ listTransactions, removeItem }) {
   
@@ -16,7 +17,7 @@ function List({ listTransactions, removeItem }) {
                 <span>{listItem.type}</span>
                 <h4>R${listItem.value},00</h4>
                 <img id={listItem.id} onClick={removeItem}
-                  src="src/assets/trashicon.png"
+                  src={trash}
                   alt="delete icon"
                 />
               </StyledItemList>
