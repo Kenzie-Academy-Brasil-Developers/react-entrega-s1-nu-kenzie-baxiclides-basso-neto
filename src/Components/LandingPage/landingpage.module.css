@@ -36,7 +36,7 @@ header h3 {
   font-weight: 300px;
 }
 
-.header button{
+.header button {
   width: 90%;
   margin-top: 2rem;
   height: 3rem;
@@ -115,8 +115,8 @@ header h3 {
     margin: 0 auto;
   }
 
-  .header{
-  max-width: 40%;
+  .header {
+    max-width: 40%;
   }
   .containerBox {
     position: relative;
@@ -170,7 +170,7 @@ header h3 {
     margin-left: 10px;
     border-radius: 4px;
   }
-  
+
   .image2 {
     width: 50px;
     height: 50px;

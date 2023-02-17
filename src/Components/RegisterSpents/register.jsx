@@ -2,8 +2,8 @@ import { useState } from "react";
 import "./register.css";
 import { v4 as uuid } from "uuid";
 function RegisterSpents({ listTransactions, setListTransactions }) {
-  const [description, setDescription] = useState('');
-  const [value, setValue] = useState('');
+  const [description, setDescription] = useState("");
+  const [value, setValue] = useState("");
   const [type, setType] = useState("Entrada");
 
   function handleSubmit(event) {
