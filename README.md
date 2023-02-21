@@ -43,7 +43,7 @@ Link to the project on Vercel: [https://react-entrega-s1-nu-kenzie-baxiclides-ba
 
 The following tools were used in this project:
 
-- [ReactJS](https://pt-br.reactjs.org/)
+- [React](https://pt-br.reactjs.org/)
 - [Styled-components](https://styled-components.com/)
 - [Media Queries](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Media_Queries/Using_media_queries)
 
@@ -55,7 +55,7 @@ Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) an
 
 ```bash
 # Clone this project
-$ git clone https://github.com//Kenzie-Academy-Brasil-Developers/react-entrega-s1-nu-kenzie-baxiclides-basso-neto
+$ git clone https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-s1-nu-kenzie-baxiclides-basso-neto
 
 # Access
 $ cd react-entrega-s1-nu-kenzie-baxiclides-basso-neto
@@ -66,7 +66,8 @@ $ yarn
 # Run the project
 $ yarn start
 
-# The server will initialize
+# The server will initialize in the <http://localhost:3000>
+```
 
 ## :memo: License
 
