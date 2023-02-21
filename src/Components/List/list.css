@@ -1,32 +1,29 @@
-
-.list__value{
-    border: 3px solid #f8f8f8;
-    margin-top: 1rem;
-    border-radius: 8px;
-    padding: 5px 14px;
+.list__value {
+  border: 3px solid #f8f8f8;
+  margin-top: 1rem;
+  border-radius: 8px;
+  padding: 5px 14px;
 }
 
-.totalMoney{
-    margin-left: 70px;
-    color: #FD377E;
+.totalMoney {
+  margin-left: 70px;
+  color: #fd377e;
 }
 
-.noItens{
+.noItens {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+@media (min-width: 769px) {
+  .totalMoney {
+    margin-left: 10px;
+  }
+
+  .noItens {
     margin-top: 2rem;
     margin-bottom: 1rem;
-    font-size: 1.5rem;
+    font-size: 3rem;
+  }
 }
-
-@media(min-width: 769px){
-    .totalMoney{
-        margin-left: 10px
-    }
-
-    .noItens{
-        margin-top: 2rem;
-        margin-bottom: 1rem;
-        font-size: 3rem;
-    }
-
-}
-

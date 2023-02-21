@@ -35,7 +35,7 @@ body {
   align-self: center;
 }
 
-.header__app button:hover{
+.header__app button:hover {
   background-color: #fd377e;
   color: white;
 }
@@ -55,7 +55,7 @@ body {
   margin-bottom: 2rem;
 }
 
-footer{
+footer {
   padding: 10px;
 }
 
@@ -112,5 +112,4 @@ footer{
   .container__valueAndType input {
     width: 60px;
   }
-
 }
